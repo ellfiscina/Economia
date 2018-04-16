@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="economia.css">
+</head>
+<body>
+	<header>
+		<h1>Atividade de Economia</h1>
+	</header>
+	<div class="container" id="main">
+		<h3>Série Uniforme de Pagamentos</h3>
+		<div class="row">
+			<div class="col-md-6" id="form">
+				<br><label>Valor da prestação:</label><br>
+				<input type="text" name="pgto" id="pgto" disabled>
+				<br><label>Valor presente:</label><br>
+				<input type="text" name="vp" id="vp">
+				<br><label>Taxa de juro (%):</label><br>
+				<input type="text" name="i" id="i" placeholder="Ex: 95.9">
+				<br><label>Qtd de pagamentos:</label><br>
+				<input type="text" name="n" id="n">
+				<br>
+			</div>
+			<div class="col-md-6">
+				<div id="r">
+					<p>Calcular:</p>
+					<input type="radio" class="radio" name="parcela" value="parcelado" checked><label>Prestação</label><br>
+	  				<input type="radio" class="radio" name="parcela" value="avista"><label>Valor presente</label><br>
+	  				<input type="radio" class="radio" name="parcela" value="futuro"><label>Valor futuro</label><br>
+	  				<br><br><p></p>
+					<label id="lb">Resultado:</label><br>
+					<span id="result">0</span>
+				</div>
+			</div>
+			<button id="btn">OK</button>
+		</div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="economia.js"></script>
+</body>
+</html>
