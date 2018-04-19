@@ -12,11 +12,14 @@ h1{
 	position: relative;
 	top: 20px;
 }
-#main{
+#main, #mainO{
 	background: #ecf0f1;
 	width: 60%;
 	height: 470px;
 	font-size: 18px;
+}
+#mainO{
+	/*height: 550px;*/
 }
 p{	
 	font-weight: bold;
@@ -41,11 +44,18 @@ input[type="radio"]{
 	top: 20px;
 	height: 355px;
 }
+.rowO{
+	/*height: 450px;*/
+}
 #form{
 	position: relative;
 	left: 70px;
 }
-#btn{
+.form{
+	position: relative;
+	left: 70px;
+}
+.btn{
 	position: relative;
 	right: 40px;
 	width: 100px;
@@ -53,4 +63,37 @@ input[type="radio"]{
 }
 #lb, #result{
 	color: #3498db;
+}
+.lb, .result{
+	color: #3498db;
+	position: relative;
+	left: 42px;
+	top: 70px;
+}
+h4{
+	font-weight: bold;
+	color: #2980b9;
+	position: relative;
+	right: 70px;
+}
+hr{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 0.5px;
+	border-color: #bdc3c7;
+	width: 80%;
+	position: relative;
+	right: 100px;
+}
+label{
+	text-align: right;
+}
+.btnO{
+	position: relative;
+	left: 320px;
+	top: -33px;
 }

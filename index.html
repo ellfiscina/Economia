@@ -4,11 +4,21 @@
 	<meta charset="utf-8">
 	<title></title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="economia.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<header>
-		<h1>Atividade de Economia</h1>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">Atividade de Economia</a>
+		    </div>
+		    <ul class="nav navbar-nav navbar-right">
+		      <li class="active"><a href="#">Home</a></li>
+		      <li><a href="orcamento.html">Técnicas de Orçamento</a></li>
+		    </ul>
+		  </div>
+		</nav>
 	</header>
 	<div class="container" id="main">
 		<h3>Série Uniforme de Pagamentos</h3>
@@ -35,11 +45,11 @@
 					<span id="result">0</span>
 				</div>
 			</div>
-			<button id="btn">OK</button>
+			<button class="btn">OK</button>
 		</div>
 	</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="economia.js"></script>
+<script src="pagamento.js"></script>
 </body>
 </html>
